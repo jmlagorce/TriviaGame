@@ -1,0 +1,62 @@
+#body {
+    background-image: url("../images/sports-balls-seamless-pattern-background-vector-19879538.jpg");
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: navy;
+    border: 10px dotted white;
+}
+
+.mainContent {
+    height: 1000px;
+    width: 1210px;
+    margin: 30px 40px 30px 30px;
+    background-color: black;
+    color: white;
+}
+
+#start {
+    width: 400px;
+    height: 200px;
+    font-size: 100px;
+    background-color: navy;
+    position: absolute;
+    top: 525px;
+    left:435px;
+    border:5px solid white;
+    
+
+}
+
+
+#qForm {
+    margin-left: 20px;
+
+}
+
+
+#results {
+    width: auto;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    border: white 5px solid;
+    margin: 80px 10px 0px 10px;
+    text-align: center;
+}
+
+#retryBtn {
+   border: white 5px solid;
+   padding: 5px;
+}
+hr {
+    background-color: white;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body id="body">
+    <div class="mainContent">
+        
+      <header>Sports Trivia</header>
+      <button id="start" type="button" class="btn btn-primary btn-lg">Start!</button>
+    
+    <div id="results" class="card">
+        <img class="card-img-top" src="holder.js/100x180/" alt="">
+        <div class="card-body">
+            <h4 class="card-title">Results:</h4>
+            <p id="correct" class="card-text">Correct:</p>
+            <p id="incorrect" class="card-text">Incorrect:</p>
+        </div>
+        <button type="retry" class="btn btn-primary" id="retryBtn">Retry?</button>
+    </div>
+
+        <form id="qForm">
+                <div class="form-group">
+                  <label for="Q1"><h4>Question 1:</h4></label>
+                  <p>There are 11 players on the field per team in a football game. True or False</p>
+                  
+                  <div id="firstQ">
+                  <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                        type="radio"
+                          name="Q1"
+                         
+                          value="true"
+                        />
+                        <label class="form-check-label" for="Q1">True</label>
+                      </div>
+                      <br>
+                      <div class="form-check form-check-inline">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="Q1"
+                              
+                              value="false"
+                            />
+                            <label class="form-check-label" for="Q1">False</label>
+                          </div>
+                </div>
+                <hr>
+                <div class="form-group">
+                  <label id="q1" for="exampleInputPassword1"><h4>Question 2:</h4></label>
+                  <p>Tom Brady holds the the most passing touchdowns in NFL history. True or Flase</p>
+                  <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="Q2"
+                          
+                          value="true"
+                        />
+                        <label class="form-check-label" for="Q2">True</label>
+                      </div>
+                      <br>
+                      <div class="form-check form-check-inline">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="Q2"
+                              
+                              value="false"
+                            />
+                            <label class="form-check-label" for="Q2">False</label>
+                          </div>
+                </div>
+                <hr>
+                
+                <button type="submit" class="btn btn-primary" id="submitBtn" href="index.html">Submit</button>
+              </form>
+
+            </div>
+    
+    
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="assets/javascript/app.js"></script>
+  </body>
+</html>
