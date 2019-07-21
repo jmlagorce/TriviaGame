@@ -31,18 +31,18 @@ $("#start").on("click", function(event){
         var val4 = $('input[name=Q4]:checked').val();
         number--;
     
-        //  Show the number in the #show-number tag.
+       
         $("#timer").text("Time left: " + number);
     
     
-        //  Once number hits zero...
+        
         if (number === 0) {
     
-          //  ...run the stop function.
+          
           stop();
     
-          //  Alert the user that time is up.
-          $("#timer").text("Times up!");
+          
+          alert("Times up!");
 
           $("#results").show();
           $("#qForm").hide();
@@ -79,7 +79,7 @@ $("#start").on("click", function(event){
         $("#correct").text("Correct: " + correct);
         $("#incorrect").text("Incorrect: " + wrong);
 
-         
+         run();
           
         }
       }
@@ -186,4 +186,3 @@ $("#qForm").hide();
 
 
 }) 
-//dont code under this line//
